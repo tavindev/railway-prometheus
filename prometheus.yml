@@ -11,4 +11,4 @@ scrape_configs:
   - job_name: 'trading-server'
     scrape_interval: 5s
     static_configs:
-      - targets: ['http://trading-server-1d6a3be6:8888']
+      - targets: ['trading-server-1d6a3be6:8888']
